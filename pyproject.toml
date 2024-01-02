@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "baboon-labels-filter"
+version = "0.0.0"
+description = "Tools to clean up \"Baboons on the Move\" hand labeled data."
+authors = ["Tyler Flar <tflar@ucsd.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
